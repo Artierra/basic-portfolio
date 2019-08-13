@@ -1,64 +1,87 @@
-            body {
-                width: 100%;
-            }
-            
-            header {
-                background-color: #4aaaa5;
-                width: 40%
-            }
-            
-            nav {
-                float: right;
-                width: 25%;
-            }
-            
-            a {
-                text-decoration: none;
-                font-family: Arial, Helvetica, sans-serif;
-                color: grey;
-            }
-            
-            h1 {
-                color: white;
-                font-family: Georgia, 'Times New Roman', Times, serif
-            }
-            
-            h2 {
-                color: #4aaaa5;
-            }
-            
-            section {
-                border-bottom: 2px solid red;
-                background-color: lightgrey;
-                border-top: 2px solid red;
-                padding: 4px;
-                margin: 4px;
-            }
-            
-            img {
-                display: inline-block;
-                padding: 2px;
-                margin: 2px;
-                width: 25%
-            }
-            
-            img {
-                float: left
-            }
-            
-            p {
-                font-family: Arial, Helvetica, sans-serif display: inline;
-                width: 96%
-            }
-            
-            .footer {
-                clear: both;
-                position: fixed;
-                left: 0;
-                bottom: 0;
-                width: 100%;
-                background-color: #666666;
-                height: 20px;
-                padding: 4px;
-                border: 2px:
-            }
+body {
+    width: 100%;
+    background-color: lightgrey;
+}
+
+header {
+    background-color: #4aaaa5;
+    width: 40%
+}
+
+nav {
+    float: right;
+    width: 25%;
+}
+
+.decoration {
+    height: 5%;
+    border-top: 2px solid #4aaaa5;
+    padding: 4px;
+    margin: 4px;
+}
+
+a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+h1 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+section {
+    background-color: white;
+    padding: 4px;
+    margin: 4px;
+    height: 75%;
+    width: 100%:
+}
+
+.gallery {
+    display: inline-block;
+    float: left;
+    padding: 2%;
+    margin: 2%;
+    width: 42%
+}
+
+.Monica {
+    float: left;
+    display: inline-block;
+    padding: 1%;
+    margin: 1%;
+    width: 25%
+}
+
+.tall {
+    clear: both;
+    float: left;
+    display: inline-block;
+    padding: 2%;
+    margin: 2%;
+    width: 42%
+}
+
+
+}
+p {
+    font-family: Arial, Helvetica, sans-serif display: inline;
+    width: 96%
+}
+.footer {
+    clear: both;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    height: 20px;
+    padding: 4px;
+    border-top: solid 3px #4aaaa5
+}
